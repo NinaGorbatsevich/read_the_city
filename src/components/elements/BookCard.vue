@@ -40,7 +40,7 @@ export default {
     height: 450px;
     border-radius: 10px;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;

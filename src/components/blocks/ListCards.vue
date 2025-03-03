@@ -3,22 +3,22 @@
       <BookCard
         title="Skyrim. История создания великой игры"
         subtitle="Франк Экстанази"
-        srcImg= "../../assets/image/image 1.png"
+        :srcImg= "require('../../assets/image/image 1.png')"
       />
       <BookCard
         title="Поисковое продвижение сайтов"
         subtitle="Сергей Анисимов"
-        srcImg="../../assets/image/image 2.png"
+        :srcImg= "require('../../assets/image/image 2.png')"
       />
       <BookCard
         title="Английский для дизайнеров"
         subtitle="Татьяна Магарина"
-        srcImg="../../assets/image/image 3.png"
+        :srcImg= "require('../../assets/image/image 3.png')"
       />
       <BookCard
         title="Дизайн и цвет. Практикум"
         subtitle="Шон Адамс"
-        srcImg="../../assets/image/image 4.png"
+        :srcImg= "require('../../assets/image/image 4.png')"
       />
     </div>
 </template>
